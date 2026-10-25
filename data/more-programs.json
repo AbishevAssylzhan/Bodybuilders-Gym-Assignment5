@@ -1,0 +1,38 @@
+[
+  {
+    "id": 4,
+    "name": "Powerlifting Basics",
+    "category": "strength",
+    "level": "Intermediate",
+    "duration": 75,
+    "description": "Learn the squat, bench press, and deadlift with coach feedback on every rep.",
+    "image": "https://thumbs.dreamstime.com/z/group-young-people-doing-exercises-together-gym-group-young-people-doing-exercises-gym-138431463.jpg"
+  },
+  {
+    "id": 5,
+    "name": "HIIT Express",
+    "category": "cardio",
+    "level": "All levels",
+    "duration": 30,
+    "description": "Short, intense intervals that raise your heart rate and burn calories in half an hour.",
+    "image": "https://truefitness.com/wp-content/uploads/2024/08/Launch-Series.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Pilates Core",
+    "category": "mind",
+    "level": "Beginner",
+    "duration": 45,
+    "description": "Strengthen your core and improve posture with controlled, low-impact movements.",
+    "image": "https://stratfordcrier.com/wp-content/uploads/2025/04/yoga.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Group Boot Camp",
+    "category": "cardio",
+    "level": "Advanced",
+    "duration": 50,
+    "description": "Team-based circuits that mix running, bodyweight work, and strength stations.",
+    "image": "https://thumbs.dreamstime.com/z/group-fit-people-gym-training-multiracial-friends-working-out-together-sportive-fitness-club-175943512.jpg"
+  }
+]

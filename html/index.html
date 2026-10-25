@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilders Gym - Home</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/theme-init.js"></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<header id="main-header" class="bg-custom-dark text-white p-4">
+    <div class="container border-start border-4 border-danger ps-3">
+        <h1>Bodybuilders Gym</h1>
+        <p class="mb-0 text-light">Strength training, cardio, and coaching for every fitness level.</p>
+    </div>
+</header>
+
+<!-- Task 5: Bootstrap Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom-dark border-top border-secondary">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="index.html">Bodybuilders Gym</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="programs.html">Programs</a></li>
+                <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-tools d-flex gap-2 ms-lg-3 mt-2 mt-lg-0">
+                <button type="button" class="btn btn-sm btn-outline-light" id="themeToggle" aria-pressed="false">Night Mode</button>
+                <button type="button" class="btn btn-sm btn-outline-light" id="soundToggle" aria-pressed="true">Sound: On</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main class="container my-5 flex-grow-1">
+
+    <!-- Task 7: Bootstrap Carousel (9 images) -->
+    <section class="card p-3 mb-4 bg-custom-surface shadow-sm">
+        <h2 class="mb-3">Gym Highlights</h2>
+        <div id="gymCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#gymCarousel" data-bs-slide-to="8"></button>
+            </div>
+            <div class="carousel-inner rounded carousel-limit">
+                <div class="carousel-item active"><img src="https://spsurfacing.com/wp-content/uploads/2025/10/20251013-032820-f699a5bd394fe2cd-f73d1a8d-9667-443a-bbc9-66a2671b0474-896x675.jpg" class="d-block w-100 object-fit-cover" alt="Main Floor"></div>
+                <div class="carousel-item"><img src="https://thumbs.dreamstime.com/z/group-young-people-doing-exercises-together-gym-group-young-people-doing-exercises-gym-138431463.jpg" class="d-block w-100 object-fit-cover" alt="Weights Area"></div>
+                <div class="carousel-item"><img src="https://truefitness.com/wp-content/uploads/2024/08/Launch-Series.jpg" class="d-block w-100 object-fit-cover" alt="Cardio Zone"></div>
+                <div class="carousel-item"><img src="https://thumbs.dreamstime.com/z/group-fit-people-gym-training-multiracial-friends-working-out-together-sportive-fitness-club-175943512.jpg" class="d-block w-100 object-fit-cover" alt="Group Training"></div>
+                <div class="carousel-item"><img src="https://stratfordcrier.com/wp-content/uploads/2025/04/yoga.jpg" class="d-block w-100 object-fit-cover" alt="Yoga Studio"></div>
+                <div class="carousel-item"><img src="https://i.pinimg.com/originals/23/7d/5e/237d5e9a307376d26796ed4446fc1dcb.jpg" class="d-block w-100 object-fit-cover" alt="Locker Room"></div>
+                <div class="carousel-item"><img src="https://i.pinimg.com/736x/36/a2/28/36a228924f5875a91d4ead9dd66680a3.jpg" class="d-block w-100 object-fit-cover" alt="Reception Desk"></div>
+                <div class="carousel-item"><img src="https://media.gettyimages.com/id/1849345050/photo/personal-instructor-and-athletic-woman-going-through-exercise-plans-in-a-gym.jpg?b=1&s=2048x2048&w=0&k=20&c=guIUSs24FDiezQztfRS-wjcmtbxL8WPV_VCue_6OUS4=" class="d-block w-100 object-fit-cover" alt="Personal Training"></div>
+                <div class="carousel-item"><img src="https://media.craiyon.com/2025-08-22/OXUC4Ji4SpmlMsAy9wt52w.webp" class="d-block w-100 object-fit-cover" alt="Exterior"></div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gymCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gymCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Task 3: Bootstrap Grid Layout (col-lg-6 and col-lg-4) -->
+    <section class="row g-4 mb-4">
+        <div class="col-lg-6">
+            <div class="card h-100 p-4 bg-custom-surface border-0 shadow-sm">
+                <h2>Welcome to Bodybuilders Gym</h2>
+                <p>Bodybuilders Gym is a fitness center built for people who want real results. Whether you are starting out or training for competition, our coaches are here to support you.</p>
+                <!-- Task 6: Button Groups -->
+                <div class="btn-group mt-3" role="group">
+                    <a href="programs.html" class="btn btn-outline-danger">Programs</a>
+                    <a href="schedule.html" class="btn btn-outline-danger">Schedule</a>
+                    <a href="contact.html" class="btn btn-danger">Join Now</a>
+                </div>
+                <!-- Task 3 (Assignment 4): this button opens the popup -->
+                <div class="mt-3">
+                    <button type="button" id="openPopupBtn" class="btn btn-custom-rust">Subscribe to Newsletter</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="card h-100 p-4 bg-custom-surface border-0 shadow-sm">
+                <h2>Why Train With Us</h2>
+                <ul class="list-group list-group-flush bg-transparent">
+                    <li class="list-group-item bg-transparent">Modern strength &amp; cardio equipment</li>
+                    <li class="list-group-item bg-transparent">Certified, experienced trainers</li>
+                    <li class="list-group-item bg-transparent">Group classes for every fitness level</li>
+                    <li class="list-group-item bg-transparent">Clean, safe, and welcoming space</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Task 8: Bootstrap Cards Grid (col-lg-4) -->
+    <section class="row g-4">
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+                <img src="https://cdn11.bigcommerce.com/s-n88j1q/images/stencil/1280x1280/products/11098/36008/tag-fitness-5-100-rubber-hex-dumbbell-set-with-rack__76731.1746708225.jpg?c=2" class="card-img-top img-cover-200" alt="Strength">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Strength Training</h5>
+                    <p class="card-text flex-grow-1">Build muscle and get stronger with guided free-weight workouts.</p>
+                    <a href="programs.html" class="btn btn-custom-rust w-100">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+                <img src="https://www.alqudra.sa/cdn/shop/articles/DALL_E_2024-12-17_15.04.52_-_An_energetic_gym_scene_showcasing_modern_cardio_machines_such_as_treadmills_elliptical_trainers_and_rowing_machines_in_a_sleek_well-lit_fitness_cen_1be3de_1792x.webp?v=1738128308" class="card-img-top img-cover-200" alt="Cardio">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Cardio Blast</h5>
+                    <p class="card-text flex-grow-1">High-energy sessions built to improve endurance and burn calories.</p>
+                    <a href="programs.html" class="btn btn-custom-rust w-100">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card h-100 shadow-sm border-0">
+                <img src="https://soukstudio.com/wp-content/uploads/2022/10/RIMA_CLASS_142.jpg" class="card-img-top img-cover-200" alt="Yoga">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Yoga &amp; Flexibility</h5>
+                    <p class="card-text flex-grow-1">Improve balance, flexibility, and focus in a calm studio setting.</p>
+                    <a href="programs.html" class="btn btn-custom-rust w-100">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer id="site-footer" class="bg-custom-dark text-white text-center py-3 mt-auto">
+    <div class="container">
+        <p class="mb-0">Bodybuilders Gym. Site built by Urazbek Bek, Abishev Asylzhan, and Daurambekov Darkhan - Group SE-2512</p>
+    </div>
+</footer>
+
+
+<!-- Task 3 (Assignment 4): Popup subscription form, hidden by default (see .popup-overlay in style.css) -->
+<div class="popup-overlay" id="subscribe-popup" aria-hidden="true">
+    <div class="popup-box" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+        <button type="button" class="popup-close" id="closePopupBtn" aria-label="Close popup">&times;</button>
+        <h3 id="popup-title">Subscribe to Our Newsletter</h3>
+        <p>Get weekly training tips and class updates from Bodybuilders Gym.</p>
+        <form id="subscribe-form" novalidate>
+            <label for="subEmail" class="form-label">Email address</label>
+            <input type="email" class="form-control mb-3" id="subEmail" placeholder="name@example.com">
+            <button type="submit" class="btn btn-custom-rust w-100">Subscribe</button>
+        </form>
+        <p id="subscribe-message" class="mt-3 mb-0"></p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/advanced.js"></script>
+</body>
+</html>
